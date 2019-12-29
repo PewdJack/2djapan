@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .img_container{
+            position: relative;
+            left: 100px;
+            top: 100px
+        }
+        .img{
+            position:absolute;
+            width: 300px;
+            height: 300px;
+        }
+        
+        .img_zoom{
+            position:absolute;
+            width: 500px;
+            height: 500px;
+            transform: translate(10px, 10px);
+        }
+    </style>
+</head>
+<body>
+    <div class = 'img_container'>
+        <img src="./aatrox-splash.jpg" alt="" class = "img" id = 'img' onmousemove='move_event(event)'/>
+        <img src="./aatrox-splash.jpg" alt="" class = "img_zoom" id = 'img_zoom' style = "display: none">
+    </div>
+    <script>
+        function move_event(event){
+            document.getElementById('img_zoom').style.display = 'block'
+            document.getElementById('img_zoom').style.left = (event.clientX-document.getElementById('img').getBoundingClientRect().left) + 'px'
+            document.getElementById('img_zoom').style.top = (event.clientY-document.getElementById('img').getBoundingClientRect().top) + 'px'
+        }
+        document.getElementById('img').addEventListener('mouseout',(e) => {
+            document.getElementById('img_zoom').style.display = 'none'
+        })
+    </script>
+</body>
+</html>

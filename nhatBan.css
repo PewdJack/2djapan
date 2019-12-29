@@ -1,0 +1,224 @@
+.bg{
+    background-color: rgb(106, 197, 228);
+}
+.ogiua{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 75px;
+    background-color: white;
+    margin: 15px
+}
+.chinh{
+    margin-left: 50px;
+}
+.cach{
+    display: flex;
+    justify-content: space-around;
+}
+.flex{
+    display: flex;
+}
+.booknow{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+}
+.xuong{
+    margin-top: 40px;
+}
+.carousel{
+    font-family: 'Lobster', cursive;
+    size: 50px;
+}
+.slogan{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+#img{
+    margin: 20px;
+    margin-left: 20px;
+}
+.navbar-letter{
+    font-family: 'Lato', sans-serif;
+}
+.edit{
+    background-color: black;
+    background-size: auto;
+    position: absolute;
+    right: 40%;
+    left: 40%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.medias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.thu2{
+    margin-top: 20px;
+}
+.butn{
+    background-color: white;
+}
+.tour{
+    margin-left: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .50rem;
+}
+.card-imgs{
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.fonttour{
+    font-family: 'Palanquin Dark', sans-serif;
+}
+#imgg{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.sizex{
+    font-size: 75px;
+}    
+#imggg{
+    background-image: url("japan.jpg");
+    background-size: cover;
+    height: 800px;
+    margin-top: 20px;
+}
+#middle{
+    margin-left: 150px;
+    margin-top: 40px;
+    background-color: rgb(106, 197, 228);
+    width: 300px;
+}
+#middl{
+    margin-left:  80px;
+    margin-top: 40px;
+    background-color: darkolivegreen;
+    width: 600px;
+}
+.xnxx{
+    background-size: cover;
+}
+.top{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 33px;
+    background-color: white;
+    margin: 15px
+}
+.doanvan{
+    font-family: 'Varela Round', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+.anhhoguom{
+    margin-left: 250px;
+}
+#kkk{
+    margin-left: 100px;
+}
+.cachtren{
+    margin-top: 20px;
+}
+.price{
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Bungee Inline', cursive;
+    margin : 20px;
+}
+.ragiua{
+    margin-left: 580px;
+    margin-bottom: 20px;
+}
+.contain{
+    background-color: #f3f3f3;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tong{
+    margin-left: 480px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+}
+.len{
+    margin-bottom: -2px;
+}
+.ytmid{
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.background{
+    margin-top: 20px;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+}
+.chia{
+    flex: 0 0 50%;
+    max-width: 40%;
+}
+.lechvao{
+    margin-left: 250px;
+}
+.padding-bottom{
+    padding-bottom: 40px;
+}
+.xuongti{
+    margin-bottom : 5px;
+}
+
+.thanhTieuDe{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #7ed6df;
+    padding: 5px 0px 5px 30px;
+    align-items: center;
+}
+.nutHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    color:#fff;
+    font-weight: bold;
+    font-family:Roboto;
+    font-size:20px;
+    cursor: pointer;
+}
+.cuoiTrang{
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: #95a5a6;
+    color:#000;
+    padding:5px 50px 5px 0px;
+}
